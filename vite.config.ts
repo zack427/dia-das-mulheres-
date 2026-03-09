@@ -4,7 +4,7 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  base: "/dia-das-mulheres-/", // ⚡ essencial para GitHub Pages
+  base: "/", // ⚡ Para Vercel, deixar "/" para evitar tela branca
   server: {
     host: "::",
     port: 8080,
