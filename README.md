@@ -42,7 +42,7 @@ O **Animated Valentine Builder** é um presente digital interativo que combina d
 
 ## 🗂 Estrutura de Arquivos
 
-'''
+```
 ├─ README.md # Documentação do projeto
 ├─ index.html # Ponto de entrada HTML
 ├─ package.json # Dependências e scripts do projeto
@@ -57,7 +57,7 @@ O **Animated Valentine Builder** é um presente digital interativo que combina d
 │ │ ├─ heart-roses.jpg
 │ │ └─ petals.png
 │ └─ lib/ # Utilitários e configurações (utils.ts)
-'''
+```
 
 ---
 
