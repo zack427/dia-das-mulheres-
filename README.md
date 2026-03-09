@@ -1,73 +1,87 @@
-# Welcome to your Lovable project
+# 🌹 Animated Valentine Builder
 
-## Project info
+Este projeto é uma página web romântica e interativa, desenvolvida para celebrar momentos especiais, como o Dia Internacional da Mulher ou o Dia dos Namorados. O site apresenta uma interface elegante, com animações suaves de pétalas caindo, seções de memórias e uma carta personalizada.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+---
 
-## How can I edit this code?
+## 💻 Sobre o Projeto
 
-There are several ways of editing your application.
+O **Animated Valentine Builder** é um presente digital interativo que combina design moderno com uma experiência emocional. Foi construído utilizando tecnologias de ponta para garantir uma performance fluida e um visual encantador em qualquer dispositivo.
 
-**Use Lovable**
+### Principais Características
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+- **Hero Section:** Uma introdução impactante com gradientes suaves e mensagem personalizada.
+- **Pétalas Animadas:** Efeito visual de pétalas de flores caindo continuamente pelo fundo da tela.
+- **Seção de Qualidades:** Cards interativos que destacam características especiais com ícones elegantes.
+- **Carta de Amor:** Seção dedicada a uma mensagem pessoal, estilizada como uma carta física.
+- **Linha do Tempo (Timeline):** Uma jornada visual pelos momentos mais importantes do casal.
+- **Design Responsivo:** Totalmente adaptado para celulares, tablets e computadores.
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## ⚡ Funcionalidades
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- **Animações com Framer Motion:** Transições suaves de entrada e efeitos de hover nos elementos.
+- **Efeito de Pétalas:** Sistema de partículas em SVG que simula a queda de pétalas com variações de tamanho e velocidade.
+- **Navegação Suave:** Scroll suave entre as seções da página.
+- **Componentes Reutilizáveis:** Construído com Shadcn/UI para garantir consistência visual e acessibilidade.
+- **Paleta de Cores Customizada:** Uso de tons de rosa (Rose), dourado (Gold) e blush, configurados via Tailwind CSS.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 🛠 Tecnologias Utilizadas
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- **React + TypeScript:** Base do projeto para uma interface reativa e tipagem segura.
+- **Vite:** Ferramenta de build extremamente rápida para desenvolvimento front-end.
+- **Tailwind CSS:** Framework de estilização utilitária para um design responsivo e moderno.
+- **Framer Motion:** Biblioteca para animações complexas e interações fluidas.
+- **Lucide React:** Conjunto de ícones minimalistas e elegantes.
+- **Shadcn/UI:** Biblioteca de componentes de interface altamente customizáveis.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 🗂 Estrutura de Arquivos
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+├─ README.md # Documentação do projeto
+├─ index.html # Ponto de entrada HTML
+├─ package.json # Dependências e scripts do projeto
+├─ tailwind.config.ts # Configurações de cores e temas do Tailwind
+├─ src/
+│ ├─ main.tsx # Inicialização do React
+│ ├─ App.tsx # Componente principal e rotas
+│ ├─ components/ # Componentes reutilizáveis (Hero, Timeline, etc.)
+│ ├─ pages/ # Páginas da aplicação (Index, NotFound)
+│ ├─ assets/ # Imagens e recursos visuais
+│ │ ├─ hero-flowers.jpg
+│ │ ├─ heart-roses.jpg
+│ │ └─ petals.png
+│ └─ lib/ # Utilitários e configurações (utils.ts)
+
+---
+
+## 🚀 Como Executar o Projeto
+
+1. **Clone o repositório:**
+
+```bash
+git clone https://github.com/zack427/dia-das-mulheres-.git
+
+2 Instale as dependências:
+
+npm install
+# ou
+pnpm install
+
+Inicie o servidor de desenvolvimento:
+
 npm run dev
+
+4 Acesse no navegador:
+
+Abra http://localhost:5173
+ para visualizar o projeto.
+
+ ✍️ Autor
+
+Desenvolvido com ❤️ por zack427
 ```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)

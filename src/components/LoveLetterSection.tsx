@@ -35,22 +35,21 @@ const LoveLetterSection = () => {
             </div>
 
             <h2 className="text-2xl md:text-3xl font-display font-bold text-foreground mb-6">
-              Meu Amor,
+              Wendy meu amor,
             </h2>
 
             <div className="space-y-4 text-muted-foreground font-body text-sm md:text-base leading-relaxed italic">
               <p>
-                Neste dia tão especial, quero que você saiba o quanto é importante
-                na minha vida. Você é a razão dos meus melhores sorrisos e a dona
-                de todos os meus sonhos.
+                Neste dia tão especial, quero que você saiba o quanto vc é
+                importante na minha vida. Você é a razão dos meus sorrisos.
               </p>
               <p>
-                Ser mulher é ter a força de um furacão e a delicadeza de uma flor.
-                E você, meu amor, é a combinação perfeita de tudo isso.
+                Ser mulher é ter a força de um furacão e a delicadeza de uma
+                flor. E você, meu amor, é a combinação perfeita de tudo isso.
               </p>
               <p>
-                Obrigado por ser quem você é. Por me fazer querer ser alguém melhor
-                a cada dia. Por transformar o ordinário em mágico só com o seu olhar.
+                Obrigado por ser quem você é. Por me fazer querer ser alguém
+                melhor a cada dia. Por transformar a minha vida em algo mágico.
               </p>
               <p className="text-foreground font-semibold not-italic">
                 Te amo mais do que as palavras podem dizer. 💕
@@ -59,9 +58,11 @@ const LoveLetterSection = () => {
 
             <div className="mt-8 pt-6 border-t border-border">
               <p className="text-right font-display text-lg text-foreground italic">
-                Com todo meu amor,
+                uma carta feita com todo o meu amor,
                 <br />
-                <span className="text-gradient-rose font-bold text-xl">Seu Amor ❤️</span>
+                <span className="text-gradient-rose font-bold text-xl">
+                  Isaac ❤️
+                </span>
               </p>
             </div>
           </motion.div>
